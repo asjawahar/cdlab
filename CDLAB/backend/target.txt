@@ -1,0 +1,38 @@
+
+
+
+	 MOV .., a
+
+
+
+	 MOV R0, x
+	 MOV R1, y
+	 MUL R0, R1
+	 MOV t1, R0
+
+	 MOV R0, t1
+	 MOV R1, z
+	 ADD R0, R1
+	 MOV t2, R0
+
+	 JGT t2 num label#6
+
+	 JMP label#8
+
+	 MOV R0, x
+	 MOV R1, x
+	 ADD R0, R1
+	 MOV x, R0
+
+	 MOV R0, y
+	 MOV R1, y
+	 ADD R0, R1
+	 MOV y, R0
+
+	 OUT x
+
+	 MOV z, y
+
+	 OUT z
+
+	 OUT z

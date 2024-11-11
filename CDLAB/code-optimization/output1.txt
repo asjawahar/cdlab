@@ -1,0 +1,9 @@
+ #include<stdio.h> 
+ main() 
+ { 
+ float pi  = 3.14, r, a ;  
+ a 3.14 = pi 3.14 * r 3.14 * r ;  
+ printf("a 3.14 = %f", a) ;  
+ return 0 ; 
+ } 
+ ÿ 
